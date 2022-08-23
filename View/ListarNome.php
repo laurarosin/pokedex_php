@@ -12,9 +12,13 @@
         <tr>
             <th></th>
             <th>Id</th>
+            <th></th>
             <th>Nome</th>
+            <th></th>
             <th>Descricao</th>
+            <th></th>
             <th>Habilidade</th>
+            <th></th>
             <th>Tipo</th>
         </tr>
 
@@ -31,8 +35,11 @@
             </td>
 
             <td><?= $item->nome?></td>
+            <td></td>
             <td><?= $item->descricao ?></td>
+            <td></td>
             <td><?= $item->habilidade ?></td>
+            <td></td>
             <td><?= $item->tipo ?></td>
 
         </tr>

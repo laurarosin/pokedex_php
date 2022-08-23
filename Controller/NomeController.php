@@ -11,7 +11,7 @@ class NomeController
        
         $model = new NomeModel();
         $model->getAllRows();
-        include 'View/Nome/NomeListar.php';
+        include 'View/ListarNome.php';
     }
     public static function form()
     {
@@ -20,7 +20,7 @@ class NomeController
       
         if(isset($_GET['id']))
         $model = $model->getById( (int) $_GET['id']);
-        include 'View//Nome.php';
+        include 'View/FormNome.php';
     }
 
 
