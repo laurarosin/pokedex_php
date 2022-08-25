@@ -1,3 +1,7 @@
+create schema db_sistema;
+
+use db_sistema;
+
 create table pokemon (
 id int auto_increment,
 nome varchar (450) not null,
