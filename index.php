@@ -7,6 +7,11 @@ include 'Controller/NomeController.php';
 switch($uri_parse)
 
 {
+
+    case '/home':
+        include 'View/Pagina_Inicial/home.php';
+    break;
+
     case '/nome':
     NomeController::index();
     break;
