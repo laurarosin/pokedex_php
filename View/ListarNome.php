@@ -12,7 +12,6 @@
         <tr>
             <th></th>
             <th>Id</th>
-            <th></th>
             <th>Nome</th>
             <th></th>
             <th>Descricao</th>
@@ -33,8 +32,6 @@
             <td>
                 <a href="/nome/form?id=<?= $item->id ?>"><?= $item->nome ?></a>
             </td>
-
-            <td><?= $item->nome?></td>
             <td></td>
             <td><?= $item->descricao ?></td>
             <td></td>
